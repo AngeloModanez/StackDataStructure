@@ -32,4 +32,14 @@ public class EDStack {
     {
         return stack.empty();
     }
+
+    public String toString()
+    {
+        return stack.toString();
+    }
+    
+    public Node peek() 
+    {
+        return stack.peek();
+    }
 }
